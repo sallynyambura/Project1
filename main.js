@@ -10,7 +10,7 @@ text = "<ul>";
 for (i=0; i<3;i++)
 {
     //prompt user input
-    let user = prompt("Please enter 3 words: ");
+    let user = prompt("Please enter 3 words: " + (i + 1));
     words[i] = user;  
 }
 
